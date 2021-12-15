@@ -1,0 +1,93 @@
+.guide-heading {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.guide-heading h2 {
+  line-height: 55px;
+  font-size: 2.2rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.guide-heading p {
+  font-size: 1rem;
+  color: #777474;
+  width: 100%;
+}
+/* Planejamento */
+.planning-heading {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.planning-heading h3 {
+  line-height: 55px;
+  font-size: 1.8rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.planning-heading p {
+  font-size: 1rem;
+  color: #777474;
+  width: 100%;
+}
+/* Acesso */
+
+.acess-heading {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.acess-heading h4 {
+  line-height: 55px;
+  font-size: 1.4rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.acess-heading p {
+  font-size: 1rem;
+  color: #777474;
+  width: 100%;
+}
+
+/* Começar produção */
+
+
+
+
+.start-heading {
+  max-width: 1140px;
+  margin: 0 auto;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.start-heading h3 {
+  line-height: 55px;
+  font-size: 1.8rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.start-heading p {
+  font-size: 1rem;
+  color: #777474;
+  width: 100%;
+}

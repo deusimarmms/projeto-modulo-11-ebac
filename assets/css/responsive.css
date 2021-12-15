@@ -1,0 +1,116 @@
+nav .menu-btn {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  nav {
+    justify-content: space-between;
+    height: 65px;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background: #fff;
+    border-bottom: 4px solid #5a76fd;
+    width: 100%;
+    padding-bottom: 13px;
+  }
+ 
+  .menu li {
+    width: 100%;
+    display: flex;
+  }
+  .menu li a {
+    margin: 0 auto;
+  }
+
+  nav .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  nav .menu-icon .nav-icon {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px;
+  }
+  nav .menu-icon .nav-icon::before,
+  nav .menu-icon .nav-icon::after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all ease-out 0.2s;
+    width: 100%;
+  }
+  nav .menu-icon .nav-icon::before {
+    top: 5px;
+  }
+  nav .menu-icon .nav-icon::after {
+    top: -5px;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  nav .menu-btn:checked ~ .menu-icon .nav-icon::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  nav .menu-btn {
+    display: none;
+  }
+  nav .menu-btn:checked ~ .menu{
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .home-content {
+    top: 60%;
+    flex-direction: column-reverse;
+  }
+
+}
