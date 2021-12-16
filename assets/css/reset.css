@@ -12,3 +12,59 @@ ul{
 a{
   text-decoration: none;
 }
+
+
+
+h1{
+  font-size: 3.5rem;
+  line-height: 55px;
+  color: #22252e;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+
+h2 {
+  line-height: 55px;
+  font-size: 2.2rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+
+
+ h3 {
+  line-height: 55px;
+  font-size: 1.8rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+
+
+ h4 {
+  line-height: 55px;
+  font-size: 1.4rem;
+  color: #22252e;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+p {
+  font-size: 1rem;
+  color: #777474;
+  width: 100%;
+}
+
+
+
+
+
+
+

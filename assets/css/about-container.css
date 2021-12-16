@@ -1,0 +1,28 @@
+.about-container{
+ 
+  position: relative;
+  top: 250px;
+  max-width: 1240px;
+  margin: 0 auto
+}
+.banner-about img{
+  margin: 0 auto;
+  display: block;
+  width: 670px;
+  padding: 40px 0;
+}
+.social-media{
+  margin-top: 40px;
+}
+
+.social-icons{
+  margin-top: 20px;
+}
+.social-icons div{
+  padding: 0 8px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  
+}

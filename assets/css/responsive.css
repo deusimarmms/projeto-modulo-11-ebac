@@ -17,7 +17,7 @@ nav .menu-btn {
     width: 100%;
     padding-bottom: 13px;
   }
- 
+
   .menu li {
     width: 100%;
     display: flex;
@@ -74,43 +74,36 @@ nav .menu-btn {
   nav .menu-btn {
     display: none;
   }
-  nav .menu-btn:checked ~ .menu{
+  nav .menu-btn:checked ~ .menu {
     display: block;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .home-content {
-    top: 60%;
     flex-direction: column-reverse;
   }
+  .services {
+    padding: 0 20px;
+  }
+}
 
+@media (max-width: 590px) {
+  .services {
+    position: relative;
+    left: 50%;
+    right: 50%;
+  }
+}
+
+/* Sobre  */
+
+@media (max-width: 1290px) {
+  .banner-about h1 {
+    padding-left: 40px;
+  }
+  .about > :is(h2, h3, h4, p) {
+    padding-left: 40px;
+  }
+  .social-media{
+    padding-left: 40px;
+  }
 }
