@@ -104,42 +104,63 @@ nav .menu-btn {
   .about > :is(h2, h3, h4, p) {
     padding-left: 40px;
   }
-  .social-media{
+  .social-media {
     padding-left: 40px;
   }
 }
 @media (max-width: 960px) {
-  .banner-about img{
+  .banner-about img {
     width: 370px !important;
- 
   }
-  .banner-about h1{
+  .banner-about h1 {
     font-size: 2.6em;
   }
-  @media (max-width:400px) {
-    .banner-about h1{
+  @media (max-width: 400px) {
+    .banner-about h1 {
       font-size: 2em;
     }
   }
 }
 
-
-
-
-
 /* Contato */
 
 @media (max-width: 1024px) {
-  .contact-content{
+  .contact-content {
     padding: 0 20px;
   }
-  .contact-content h1{
+  .contact-content h1 {
     font-size: 2.3em;
   }
-  .contact-content h2{
+  .contact-content h2 {
     font-size: 1.6em;
   }
-  .cognito{
+  .cognito {
     padding: 0 20px;
+  }
+}
+
+/* Ajustes responsivos Index */
+
+@media (max-width: 390px) {
+  .home-img {
+    width: 320px;
+  }
+  .services {
+    position: relative;
+    left: 10%;
+    right: 50%;
+    top: 50px;
+    width: 450px;
+  }
+  .banner-about h1 {
+    padding: 0;
+    text-align: center;
+  }
+  .banner-about img {
+    width: 300px !important;
+  }
+  .about {
+    position: relative;
+    right: 10px;
   }
 }
