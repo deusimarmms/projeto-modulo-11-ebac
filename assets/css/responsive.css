@@ -77,22 +77,8 @@ nav .menu-btn {
   nav .menu-btn:checked ~ .menu {
     display: block;
   }
-
-  .home-content {
-    flex-direction: column-reverse;
-  }
-  .services {
-    padding: 0 20px;
-  }
 }
 
-@media (max-width: 590px) {
-  .services {
-    position: relative;
-    left: 50%;
-    right: 50%;
-  }
-}
 
 /* Sobre  */
 
@@ -140,27 +126,21 @@ nav .menu-btn {
 }
 
 /* Ajustes responsivos Index */
-
-@media (max-width: 390px) {
-  .home-img {
-    width: 320px;
-  }
+@media (max-width: 1024px) {
   .services {
-    position: relative;
-    left: 10%;
-    right: 50%;
-    top: 50px;
-    width: 450px;
+  width: 850px;
+  margin: 0 auto;
   }
-  .banner-about h1 {
-    padding: 0;
-    text-align: center;
+@media (max-width: 850px) {
+  .services {
+  width: 450px;
+  margin: 0 auto;
   }
-  .banner-about img {
-    width: 300px !important;
+}
   }
-  .about {
-    position: relative;
-    right: 10px;
+@media (max-width: 470px) {
+  .services {
+  width: 320px;
+  margin: 0 auto;
   }
 }
