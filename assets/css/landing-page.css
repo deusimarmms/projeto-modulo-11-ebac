@@ -1,0 +1,47 @@
+.banner{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  margin: 0 auto;
+}
+.landing-page--btn{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.quero-conhecer{
+
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a76fd;
+  color: #fff;
+  box-shadow: 5px 10px 30px rgb(90 128 255 / 50%);
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.landing-page--btn a{
+  margin: 10px auto;
+}
+.legenda{
+  background: rgba(255, 255, 255, .6);
+  
+  border-radius: 5px;
+  padding: 0 20px;
+}
+.legenda h4,h5 {
+  color: #000;
+
+}
+.plan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-plan{
+  width: 350px;
+}

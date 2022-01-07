@@ -8,3 +8,6 @@
 
 /* Contato */
 @import url(contato.css);
+
+/* Landing page */
+@import url(./landing-page.css);
